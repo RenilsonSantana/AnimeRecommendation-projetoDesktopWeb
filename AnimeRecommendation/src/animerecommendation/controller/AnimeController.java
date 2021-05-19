@@ -40,10 +40,6 @@ public class AnimeController {
         AnimeView.exibirAnime(animeSaida);
     }
     
-    public void iniciarDao(){
-        
-    }
-    
     public static void alterar() throws SQLException, ClassNotFoundException {
         id = Integer.parseInt(JOptionPane.showInputDialog("ID"));
         nome = JOptionPane.showInputDialog("NOME");

@@ -20,25 +20,26 @@ import animerecommendation.util.ConexaoDb;
  * @author BmnGamer
  */
 public class AnimeDao {
+
     private final Connection c;
-    
-    public AnimeDao(){
+
+    public AnimeDao() {
         this.c = new ConexaoDb().getConnection();
     }
-    
-    public Anime inserir (Anime anime) throws SQLException {
+
+    public Anime inserir(Anime anime) throws SQLException {
         String sql = "insert into tbANIMES" + " (nome,genero,episodios,temporadas,anoLancamento,sinopse)" + " values (?,?,?,?,?,?)";
-   
+
         // seta os valores
         try ( // prepared statement para inserção
-            PreparedStatement stmt = c.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS)) {
+                PreparedStatement stmt = c.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
             // seta os valores
-            stmt.setString(1,anime.getNome());
-            stmt.setString(2,anime.getGenero());
-            stmt.setInt(3,anime.getQtdEpisodios());
-            stmt.setInt(4,anime.getQtdTemporadas());
-            stmt.setInt(5,anime.getAnoDeLancamento());
-            stmt.setString(6,anime.getSinopse());
+            stmt.setString(1, anime.getNome());
+            stmt.setString(2, anime.getGenero());
+            stmt.setInt(3, anime.getQtdEpisodios());
+            stmt.setInt(4, anime.getQtdTemporadas());
+            stmt.setInt(5, anime.getAnoDeLancamento());
+            stmt.setString(6, anime.getSinopse());
             // executa
             stmt.executeUpdate();
             ResultSet rs = stmt.getGeneratedKeys();
@@ -50,19 +51,19 @@ public class AnimeDao {
         c.close();
         return anime;
     }
-    
-        public Anime alterar (Anime anime) throws SQLException {
+
+    public Anime alterar(Anime anime) throws SQLException {
         String sql = "UPDATE tbANIMES SET nome = ?, genero = ?, episodios = ?, temporadas = ?, anoLancamento = ?, sinopse = ? WHERE id = ?";
         // seta os valores
         // prepared statement para inserção
         try (PreparedStatement stmt = c.prepareStatement(sql)) {
             // seta os valores
-            stmt.setString(1,anime.getNome());
-            stmt.setString(2,anime.getGenero());
-            stmt.setInt(3,anime.getQtdEpisodios());
-            stmt.setInt(4,anime.getQtdTemporadas());
-            stmt.setInt(5,anime.getAnoDeLancamento());
-            stmt.setString(6,anime.getSinopse());
+            stmt.setString(1, anime.getNome());
+            stmt.setString(2, anime.getGenero());
+            stmt.setInt(3, anime.getQtdEpisodios());
+            stmt.setInt(4, anime.getQtdTemporadas());
+            stmt.setInt(5, anime.getAnoDeLancamento());
+            stmt.setString(6, anime.getSinopse());
             stmt.setInt(7, anime.getId());
             // executa
             stmt.execute();
@@ -70,14 +71,14 @@ public class AnimeDao {
         c.close();
         return anime;
     }
-   
-    public Anime buscar (Anime anime) throws SQLException {
+
+    public Anime buscar(Anime anime) throws SQLException {
         String sql = "select * from tbANIMES WHERE id = ?";
         Anime retorno;
         // seta os valores
         try (PreparedStatement stmt = this.c.prepareStatement(sql)) {
             // seta os valores
-            stmt.setInt(1,anime.getId());
+            stmt.setInt(1, anime.getId());
             // executa
             ResultSet rs = stmt.executeQuery();
             retorno = null;
@@ -97,19 +98,19 @@ public class AnimeDao {
         c.close();
         return retorno;
     }
-    
-        public List<Anime> listar (Anime anime) throws SQLException {
-         // usus: array armazena a lista de registros
+
+    public List<Anime> listar(Anime anime) throws SQLException {
+        // usus: array armazena a lista de registros
         List<Anime> listaDeAnimes = new ArrayList<>();
-       
+
         String sql = "select * from tbANIMES where nome like ?";
         // seta os valores
         try (PreparedStatement stmt = this.c.prepareStatement(sql)) {
             // seta os valores
-            stmt.setString(1,"%" + anime.getNome()+ "%");
-            
+            stmt.setString(1, "%" + anime.getNome() + "%");
+
             ResultSet rs = stmt.executeQuery();
-            
+
             while (rs.next()) {
                 // criando o objeto Usuario
                 Anime animeSaida = new Anime(
@@ -127,33 +128,33 @@ public class AnimeDao {
         }
         return listaDeAnimes;
     }
-    
-    public Anime excluir (Anime anime) throws SQLException {
-         String sql = "delete from tbANIMES WHERE id = ?";
+
+    public Anime excluir(Anime anime) throws SQLException {
+        String sql = "delete from tbANIMES WHERE id = ?";
         // seta os valores
         // prepared statement para inserção
         try (PreparedStatement stmt = c.prepareStatement(sql)) {
             // seta os valores
-            stmt.setInt(1,anime.getId());
+            stmt.setInt(1, anime.getId());
             // executa
             stmt.execute();
         }
         c.close();
         return anime;
     }
-    
-    public List<Anime> litarAnimesPorGenero (Anime anime) throws SQLException {
-         // usus: array armazena a lista de registros
+
+    public List<Anime> litarAnimesPorGenero(Anime anime) throws SQLException {
+        // usus: array armazena a lista de registros
         List<Anime> listaDeAnimes = new ArrayList<>();
-       
+
         String sql = "select * from tbANIMES where genero like ?";
         // seta os valores
         try (PreparedStatement stmt = this.c.prepareStatement(sql)) {
             // seta os valores
-            stmt.setString(1,"%" + anime.getNome()+ "%");
-            
+            stmt.setString(1, "%" + anime.getNome() + "%");
+
             ResultSet rs = stmt.executeQuery();
-            
+
             while (rs.next()) {
                 // criando o objeto Usuario
                 Anime animeSaida = new Anime(
