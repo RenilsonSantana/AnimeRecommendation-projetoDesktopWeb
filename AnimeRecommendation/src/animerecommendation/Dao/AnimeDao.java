@@ -143,7 +143,7 @@ public class AnimeDao {
         return anime;
     }
 
-    public List<Anime> litarAnimesPorGenero(Anime anime) throws SQLException {
+    public List<Anime> listarAnimesPorGenero(Anime anime) throws SQLException {
         // usus: array armazena a lista de registros
         List<Anime> listaDeAnimes = new ArrayList<>();
 

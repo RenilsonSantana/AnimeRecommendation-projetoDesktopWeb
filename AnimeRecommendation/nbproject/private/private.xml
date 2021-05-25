@@ -3,12 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/util/ConexaoDb.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/view/AutorView.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/model/Producao.java</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/controller/AnimeController.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/Dao/ProducaoDao.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/controller/AutorController.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/view/ProducaoView.java</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/view/AnimeView.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/controller/ProducaoController.java</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/Dao/AnimeDao.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/model/Autor.java</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/Dao/AutorDao.java</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/AnimeRecommendation.java</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/animerecommendation/model/Anime.java</file>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/AnimeRecommendation/src/revisaodm2021n/util/ConexaoDb.java</file>
         </group>
     </open-files>
 </project-private>

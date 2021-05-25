@@ -3,21 +3,38 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/menu.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaExcluiAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/validaInseriAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/buscarAutor.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/excluirAnime.jsp</file>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/inc/formatacao.inc</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/index.jsp</file>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/inserirAnime.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/css/Estilo-celular.css</file>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaBuscaAnime.jsp</file>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaInseriAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/validaBuscaAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/listarAutor.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/listarAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/validaListarProducoes.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaAlteraAnime.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaListaAnime.jsp</file>
-            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/buscarAnime.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/alterarAnime.jsp</file>
             <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/css/Estilo.css</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/validaAlteraAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/buscarProducao.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/alterarProducao.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/excluirAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/validaBuscaProducao.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/alterarAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/validaExcluiAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/inc/formatacao.inc</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/inserirProducao.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/inserirAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/inserirAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaBuscaAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/validaExcluirProducao.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/autor/validaListaAutor.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/validaInseriAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/anime/buscarAnime.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/validaInserirProducao.jsp</file>
+            <file>file:/C:/Users/BmnGamer/OneDrive/Documentos/NetBeansProjects/WebAnimeRecommendation/web/jsp/producao/validaAlterarProducao.jsp</file>
         </group>
     </open-files>
 </project-private>

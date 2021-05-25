@@ -4,8 +4,6 @@
     Author     : BmnGamer
 --%>
 
-<%@page import="animerecommendation.Dao.AnimeDao"%>
-<%@page import="animerecommendation.model.Anime"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>

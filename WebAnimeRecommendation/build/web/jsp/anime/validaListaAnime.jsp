@@ -15,13 +15,13 @@
 
     Anime animeEntrada = new Anime(genero);
     AnimeDao animeDao = new AnimeDao();
-    List<Anime> listaDeAnime = animeDao.litarAnimesPorGenero(animeEntrada);
+    List<Anime> listaDeAnime = animeDao.listarAnimesPorGenero(animeEntrada);
 %>
 
 <!DOCTYPE html>
 <html>
     <%@include file="../../inc/formatacao.inc" %>
-    <title>Litar Animes</title>
+    <title>Listar Animes</title>
     <body>
         <div class="recomend">
 	<section id="corpo">
